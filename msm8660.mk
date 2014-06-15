@@ -89,7 +89,8 @@ PRODUCT_PACKAGES += \
 
 # Camera wrapper
 PRODUCT_PACKAGES += \
-    camera.msm8660
+    camera.msm8660 \
+    libsurfaceflinger_client
 
 # Media configuration
 PRODUCT_COPY_FILES += \
