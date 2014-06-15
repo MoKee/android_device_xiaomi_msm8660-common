@@ -92,6 +92,14 @@ PRODUCT_PACKAGES += \
     camera.msm8660 \
     libsurfaceflinger_client
 
+# Power
+PRODUCT_PACKAGES += \
+    power.msm8660
+
+# Misc
+PRODUCT_PACKAGES += \
+    libnetcmdiface
+
 # Media configuration
 PRODUCT_COPY_FILES += \
     device/xiaomi/msm8660-common/configs/media_codecs.xml:system/etc/media_codecs.xml \
